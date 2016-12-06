@@ -1,7 +1,8 @@
 package dao;
 
-import java.util.regex.PatternSyntaxException;
+import Core.Expections.*;
 
+import java.util.regex.PatternSyntaxException;
 
 public class Godzina {
 	

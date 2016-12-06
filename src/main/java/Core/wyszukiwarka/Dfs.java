@@ -70,6 +70,7 @@ public class Dfs {
 					dfs(tempElt);
 				}
 			}
+			/* Opcja przesiadki - trzeba bedzie przerobic
 			List<Przystanek> tempPrzystanki = akt.getPrzystanek().getZespol().getPrzystanki();
 			Iterator<Przystanek> it2 = tempPrzystanki.iterator();
 			while(it2.hasNext()){
@@ -86,6 +87,7 @@ public class Dfs {
 					}
 				}
 			}
+			*/
 		}
 		Odjazd aktOdjazd = akt.getOdjazd();
 		Odjazd nast = aktOdjazd.getKurs().getNext(aktOdjazd.getId());

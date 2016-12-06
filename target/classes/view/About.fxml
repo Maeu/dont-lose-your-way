@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="40" minWidth="80" spacing="15.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane>
+         <children>
+            <Label text="Don't lose your way">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane>
+         <children>
+            <Label text="Public transport route finder for Cracow" />
+         </children>
+      </StackPane>
+      <StackPane layoutX="10.0" layoutY="26.0">
+         <children>
+            <Label text="Developed by: Mateusz, Tomasz, Mateusz" />
+         </children>
+      </StackPane>
+      <StackPane layoutX="10.0" layoutY="42.0">
+         <children>
+            <Label text="MIT License" />
+         </children>
+      </StackPane>
+      <StackPane layoutX="10.0" layoutY="42.0">
+         <children>
+            <Label text="Version 0.1 nov 2016" />
+         </children>
+      </StackPane>
+      <StackPane layoutX="50.0" layoutY="157.0">
+         <children>
+            <Hyperlink text="https://github.com/Osorkon93/dont-lose-your-way" />
+         </children>
+      </StackPane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
+   </padding>
+</VBox>

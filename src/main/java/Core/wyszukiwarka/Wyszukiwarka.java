@@ -66,6 +66,10 @@ public class Wyszukiwarka implements WyszukiwarkaPolaczen {
 			index++;
 			if(index < daneWejscia.length)throw new ZbedneDaneNaKoncuException(index, daneWejscia);
 
+			String porzadek, tryb;
+			porzadek = daneWejscia[index];
+			index++;
+			tryb = daneWejscia[index];
 			if(porzadek.equals("s")){
 				if(tryb.equals("w"))wynik = w.znajdzOdNajkrotszego(przystanekPoczatkowy, przystanekDocelowy, czasPoczatkowy, dlugosc);
 				else wynik = w.znajdzNajkrotsze(przystanekPoczatkowy, przystanekDocelowy, czasPoczatkowy, dlugosc);
@@ -103,7 +107,7 @@ public class Wyszukiwarka implements WyszukiwarkaPolaczen {
 	}
 
 	public void wczytajBaze() {
-//szkic metody
+/*szkic metody
 		//pętla po wszystkich przystankach
 		String nazwa;
 		Przystanek tempPrzystanek = new Przystanek(nazwa);	// FIXME: 06.12.2016
@@ -146,7 +150,7 @@ public class Wyszukiwarka implements WyszukiwarkaPolaczen {
 							j++;
 						}
 						tempKurs.dodajOdjazdy(tempOdjazdy);
-
+*/
 	}
 
 	public String znajdzOdNajkrotszego(String start, String stop, String czasStartu, String dlugosc) throws GodzinaFormatException{
